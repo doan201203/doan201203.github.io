@@ -14,9 +14,10 @@ html{
 height: 46px;
 background-color: #000;
 }
-#nav li{
+#nav>li {
     display: inline-block;
-    
+}
+#nav li{
     position: relative;
 }
 
@@ -46,9 +47,7 @@ color: #000;
     color: #000;
     background-color: #ccc;
 }
-#nav ul{
-    width: 100%;
-}
+
 
 
 #slider{
