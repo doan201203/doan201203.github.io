@@ -14,7 +14,15 @@ html{
 #header{
 height: 46px;
 background-color: #000;
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
 }
+#nav{
+display: inline-block;
+}
+
 #nav, ul{
     list-style-type: none;
 }
@@ -41,6 +49,20 @@ text-transform: uppercase;
     line-height: 46px;
     
 }
+#nav .button-down{
+font-size: 14px;
+}
+#header .button-search{
+float: right;
+color:#fff;
+line-height: 46px;
+padding: 0 24px;
+cursor: pointer;
+}
+#header .button-search:hover{
+    background-color: red;
+}
+
 #nav li:hover .subnav{
     display: block;
 }
@@ -63,7 +85,9 @@ min-width: 160px;
 
 
 #slider{
-
+    height: 2000px;
+    background-color: green;
+    margin-top: 46px;
 }
 
 #content{
