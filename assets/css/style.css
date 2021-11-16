@@ -31,6 +31,7 @@ background-color: #000;
 }
 #nav>li>a{
 color: #fff;
+text-transform: uppercase;
 }
 
 #nav li a{
@@ -40,12 +41,19 @@ color: #fff;
     line-height: 46px;
     
 }
+#nav li:hover .subnav{
+    display: block;
+}
 #nav .subnav{
 position: absolute;
+display: none;
 background-color:#fff;
 }
 #nav .subnav a{
 color: #000;
+padding: 0 12px;
+line-height: 38px;
+min-width: 160px;
 }
 #nav .subnav li:hover{
     color: #000;
